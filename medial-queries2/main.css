@@ -1,3 +1,104 @@
 body {
   background: papayawhip;
 }
+
+.a{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  height: 5em;
+}
+
+.b{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  height: 5em;
+  width: 130em;
+}
+
+.c{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 43em;
+  height: 20em;
+}
+
+.d{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 43em;
+  height: 20em;
+}
+
+.e{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 43em;
+  height: 20em;
+}
+
+.f{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  width: 50em;
+}
+
+.flex1{
+  display: flex;
+  flex-direction: row;
+}
+
+@media(max-width:600px){
+  .flex1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .b{
+    width: 99.2%;
+    height: 10em;
+  }
+
+  .c{
+    display: inline-flex;
+    width: 9.65em;
+    height: 10em;
+  }
+
+  .d{
+    display: inline-flex;
+    width: 9.65em;
+    height: 10em;
+  }
+
+  .e{
+    display: inline-flex;
+    width: 9.65em;
+    height: 10em;
+  }
+
+  .f{
+    width: 99.1%;
+    height: 5em;
+  }
+}

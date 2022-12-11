@@ -1,3 +1,125 @@
 body {
   background: peachpuff;
 }
+
+.a{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  height: 20em;
+}
+
+.b{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 20em;
+  height: 20em;
+}
+
+.c{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 20em;
+  height: 20em;
+}
+
+.d{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 20em;
+  height: 20em;
+}
+
+.e{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 20em;
+  height: 20em;
+}
+
+.f{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 20em;
+  height: 20em;
+}
+
+.g{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 20em;
+  height: 20em;
+}
+
+.h{
+  background-color: black;
+  border-style: solid;
+  border-color: blue;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  width: 97.2em;
+  height: 20em;
+}
+
+@media(max-width:600px){
+  .b{
+    width: 8em;
+    height: 8em;
+  }
+
+  .c{
+    width: 8em;
+    height: 8em;
+  }
+
+  .d{
+    width: 8em;
+    height: 8em;
+  }
+
+  .e{
+    width: 8em;
+    height: 8em;
+  }
+
+  .f{
+    width: 8em;
+    height: 8em;
+  }
+
+  .g{
+    width: 8em;
+    height: 8em;
+  }
+
+  .h{
+    width: 30em;
+  }
+}

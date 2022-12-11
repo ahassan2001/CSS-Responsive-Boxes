@@ -1,3 +1,49 @@
 body {
   background: blanchedalmond;
 }
+
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.a{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  height: 10em;
+}
+
+.b{
+  padding-left: 35%;
+  padding-right: 35%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  height: 50em;
+}
+
+.c{
+  padding-left: 14.45%;
+  padding-right: 14.45%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  height: 50em;
+}
+
+@media(max-width:600px){
+  .flex{
+    flex-direction: column;
+  }
+
+  .c{
+    height: 10em;
+  }
+}
